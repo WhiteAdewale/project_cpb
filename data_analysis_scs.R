@@ -1,6 +1,7 @@
 #Clearing Environment
 #bliepbloep
 #test2
+# Dees test
 rm(list=ls())
 
 #Importing Data
@@ -67,5 +68,3 @@ dev.off()
 pdf("AEX_vol.pdf", height = 8, width = 16)
 plot(pub.date[1:431],df.levels[1:431,10], lwd = 2, type = "l", col = "steelblue", xlab = "", ylab = "", main = "AEX Volatility")
 dev.off()
-
-
